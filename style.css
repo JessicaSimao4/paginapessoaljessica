@@ -1,0 +1,214 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+h2 {
+    .dm-serif-text-regular {
+        font-family: "DM Serif Text", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .dm-serif-text-regular-italic {
+        font-family: "DM Serif Text", serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+      
+
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+    margin: 20px 0;
+    text-align: center;
+}
+
+p {
+    .dm-serif-text-regular {
+        font-family: "DM Serif Text", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .dm-serif-text-regular-italic {
+        font-family: "DM Serif Text", serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+      
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;D
+    text-align: justify;
+}
+.logo {
+    text-align: center;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+    font-size: 25px;
+    margin: 10px;
+
+
+}
+
+#Menu {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    position: fixed;
+    width: 100%;
+    margin: 0%;
+}
+
+.listagem {
+    position: fixed;
+    top: 0;
+    left: -200px; /* Esconde o menu inicialmente */
+    width: 200px;
+    height: 100vh;
+    background: #000000;
+    transition: left 0.9s;
+    padding-top: 50px;
+}
+
+.listagem ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.listagem li {
+    padding: 15px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#Menu:hover .listagem {
+    left: 0; /* Mostra o menu ao passar o mouse */
+
+}
+
+section {
+    padding: 40px;
+    margin: 20px;
+    border-radius: 10px;
+    color: rgb(#000000, #000000, #000000);
+    text-align: center;
+}
+
+.sobre-mim {
+    margin-top: /*usado para separar a imagem do texto */;
+    background-color: #000000;  
+    margin: 0px;
+    color: #ffffff;
+
+    
+}
+
+
+
+.experiencias {
+    color: #ffffff; 
+}
+
+.meushobbies {
+    background-color: #000000; 
+    margin: 0%; 
+    color: #ffffff;
+    h2 {color: #fff;}
+
+}
+
+#contato {
+    padding: 50px 150px;
+}
+
+.contato-titulo {
+    color: #49BFB3;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.contato-formulario {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.contato-grupoinput {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contato-input {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.contato-input input {
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.contato-input textarea {
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contato-input label {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+.btn-enviar {
+    background-color: #938DF8;
+    padding: 15px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+
+    .rodape {
+        background-color: #938DF8;
+        display: flex;
+        padding: 30px 40px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .rodape-contatos {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .rodape-contatos a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+        margin-left: 10px;
+    }
+    
+    .rodape-contatos img {
+        vertical-align: middle;
+    }
+    
+    .logo-minas {
+        height: 80px;
+    }
